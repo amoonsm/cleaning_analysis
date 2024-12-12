@@ -21,20 +21,4 @@ for dv in ['mean_accuracy', 'median_rt']:
     # Perform ANOVA
     anova_table = sm.stats.anova_lm(model, typ=2)
     print(anova_table)
-
-# We'll perform post-hoc t-tests separately for Accuracy and Reaction Time
-df = pd.read_excel('DataLog_AnalysisTable.xlsx')
-
-for dv in ['mean_accuracy', 'median_rt']:
-    for trial in ['Target', 'Foil']:
-        print(f'\nt-test for {dv}: pattern vs. random for {trial}')
-        t_stat, p_value = stats.ttest_ind(df[f'{dv}_Target_Pattern'], df[f'{dv}_Target_Random'])
-        print('t-statistic:', t_stat)
-        print('p-value:', p_value)
     
-
-
-
-
-
-
