@@ -8,7 +8,7 @@ All scripts were written in Python 3.13.
 
 Order of script:
 
-1_FilterField.py - Creates a new table with relevant fields (DataLog_Filter.xlsx)
+1_FilterField.py - Creates a new table with relevant fields (DataLog_Filter.xlsx)<br />
 2_NewField.py - Creates new fields with labels of experimental manipulation (DataLog_Condition.xlsx)
 3_CollapseRecord.py - Compute average by participant (DataLog_Avg.xlsx)
 4_PrepareAnalysis.py - Reorganize table to have fields as measures by experimental manipulation (DataLog_AnalysisTable.xlsx)
