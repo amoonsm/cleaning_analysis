@@ -9,9 +9,9 @@ All scripts were written in Python 3.13.
 Order of script:
 
 1_FilterField.py - Creates a new table with relevant fields (DataLog_Filter.xlsx)<br />
-2_NewField.py - Creates new fields with labels of experimental manipulation (DataLog_Condition.xlsx)
-3_CollapseRecord.py - Compute average by participant (DataLog_Avg.xlsx)
-4_PrepareAnalysis.py - Reorganize table to have fields as measures by experimental manipulation (DataLog_AnalysisTable.xlsx)
-5_DoAnalysis.py - Conduct ANOVA (statistics in output)
-6_Plot.py - Plot the results (figures in output)
+2_NewField.py - Creates new fields with labels of experimental manipulation (DataLog_Condition.xlsx)<br />
+3_CollapseRecord.py - Compute average by participant (DataLog_Avg.xlsx)<br />
+4_PrepareAnalysis.py - Reorganize table to have fields as measures by experimental manipulation (DataLog_AnalysisTable.xlsx)<br />
+5_DoAnalysis.py - Conduct ANOVA (statistics in output)<br />
+6_Plot.py - Plot the results (figures in output)<br />
 7_DescriptiveStats.py - Create a table of descriptive statistics (DataLog_DescriptiveStat.xlsx)
